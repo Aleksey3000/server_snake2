@@ -1,0 +1,115 @@
+body {
+    background: url("/img/back.jpg");
+}
+
+.content {
+    margin: 15px;
+    font-family: sans-serif;
+
+}
+
+.container {
+    width: 800px;
+    min-height: 1000px;
+    margin: 0 auto;
+    background: #d5ebde;
+    border: 2px solid #7f8f94;
+}
+
+.head {
+    margin-bottom: 20px;
+    margin-left: 5px;
+    width: 730px;
+    display: flex;
+    border-bottom: 2px solid #4b6a75;
+
+}
+
+.logo {
+    margin-top: 24px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+ul.download {
+    border-left: 2px solid forestgreen;
+}
+
+ul.download li {
+    display: flex;
+}
+
+a {
+    transition: background-color 0.2s ease-in;
+    color: #000;
+    margin-top: 5px;
+    padding: 18px;
+    border-radius: 4px;
+    background: #ca3b12;
+    text-decoration: None;
+    display: flex;
+}
+
+a:-webkit-any-link {
+    color: #000;
+    cursor: default;
+    text-decoration: none;
+}
+
+a:hover {
+    background: brown;
+}
+
+p.in_li {
+    margin-left: 25px;
+    cursor: default;
+}
+
+p.name {
+    font-size: 28px;
+    margin-top: 13px;
+    margin-bottom: 0;
+    margin-left: 30px;
+    margin-right: 40px;
+
+}
+.about{
+    border-bottom: 2px solid #4b6a75;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    padding-bottom: 10px;
+}
+p.text {
+    cursor: default;
+}
+
+h4 {
+    margin: 0;
+}
+
+.carousel {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #4b6a75;
+}
+
+.install-instruction ul li {
+    list-style: decimal;
+}
+
+.how-install {
+    margin-bottom: 20px;
+
+    width: 730px;
+    border-bottom: 2px solid #4b6a75;
+}
+.comments-wrapper{
+    margin-left: 5px;
+}
+.create-comment {
+    width: 500px;
+
+}
+.comment-input{
+    width: 500px;
+    padding-left: 4px;
+}

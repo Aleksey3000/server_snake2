@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/index.css')}}">
+
+    <title>Title</title>
+</head>
+<body background="{{url_for('static', filename='img/back.jpg')}}">
+<div class="container">
+    <div class="content">
+        <div class="head">
+            <img src="{{url_for('static', filename='img/logo.png')}}" alt="" class="logo">
+            <div class="name_class">
+
+                <p class="name">Самая</p>
+                <p class="name">лучшая</p>
+                <p class="name">змейка!</p>
+            </div>
+            <ul class="download">
+                <li>
+                    <a href="" download="Snake.exe"><h4>Скачать для windows</h4></a>
+                    <p class="in_li">10,5 Mb</p>
+                </li>
+                <li>
+                    <a href="" download="Snake.apk"><h4>Скачать для андроид</h4></a>
+                    <p class="in_li">10,5 Mb</p>
+                </li>
+            </ul>
+        </div>
+        <div class="about">
+            <h2>Описание</h2>
+            <p class="text">
+                Змейка - это игра для тех, кто имел телефон в 2000-ых ну или просто играл на телефоне в
+                популярную игру змейку на тетрисе или родительском гаджете. В данном приложении собраны самые популярные
+                змейки из тетриса, приставок и популярного на то время телефона Nokia. Если Вы хотите поиграть и
+                вспомнить былое, просто скачивайте приложение Змейка на свое Android устройство. Ну а если Вы еще ни
+                разу не играли в подобную игру, то скачать нужно обязательно и попробовать, ведь Вас это очень удивит и
+                Вы сможете увидеть во что играли Ваши старшие братья или сестры. А самое главное, в игре Змейка есть
+                несколько режимов и несколько игр, поэтому скучать не придется, это точно. Та же графика, та же физика,
+                тот же смысл. Ничего не изменили, все осталось так как и было.
+            </p>
+        </div>
+        <div id="carousel1" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="{{url_for('static', filename='img/1.png')}}" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="{{url_for('static', filename='img/2.png')}}" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="{{url_for('static', filename='img/3.png')}}" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="{{url_for('static', filename='img/4.png')}}" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel1"
+                    data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Предыдущий</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel1"
+                    data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Следующий</span>
+            </button>
+        </div>
+        <div class="how-install">
+            <h2>Как установить</h2>
+            <div class="install-instruction">
+                <ul>
+                    <li>Скачайте APK файл;</li>
+                    <li>Разрешите установку из неизвестных источников в настройках безопасности;</li>
+                    <li>С помощью файлового менеджера или любого другого, найдите скачанный АПК файл (обычно
+                        находится в папке загрузок - Downloads) и установите;
+                    </li>
+                    <li>Если хотите обновить оригинальную версию - ставьте поверх установленного приложения. Если Вы
+                        пытаетесь обновить мод - установка может не пройти. Если так произошло, удаляете старую версию
+                        взлома и устанавливаете свежий (гарантии сохранения игрового процесса нет);
+                    </li>
+                    <li>Запускайте приложение;</li>
+                    <li>При возникновении ошибок пишите в комментарии, мы Вам с радостью поможем.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="comments-wrapper">
+            <h2>Комментарии</h2>
+            <div class="create-comment">
+                <form>
+                    <div class="row g-3">
+                        <div class="col-sm">
+                            <input type="text" class="form-control" placeholder="Имя" aria-label="Имя">
+                        </div>
+                        <div class="col-sm">
+                            <input type="email" class="form-control" aria-label="email" placeholder="email">
+                        </div>
+                        <div class="comment-input">
+                            <label for="InputText"></label>
+                            <textarea name="Comment-text" id="InputText" placeholder="Комментарий" cols="57"
+                                      rows="6"></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="margin: 5px;">Отправить</button>
+                </form>
+            </div>
+            <div class="commens">
+
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
