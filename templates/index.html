@@ -102,18 +102,18 @@
         <div class="comments-wrapper">
             <h2>Комментарии</h2>
             <div class="create-comment">
-                <form>
+                <form method="post">
                     <div class="row g-3">
                         <div class="col-sm">
-                            <input type="text" class="form-control" placeholder="Имя" aria-label="Имя">
+                            <input type="text" name="title" class="form-control" placeholder="Имя" aria-label="Имя">
                         </div>
                         <div class="col-sm">
-                            <input type="email" class="form-control" aria-label="email" placeholder="email">
+                            <input type="email" name="email" class="form-control" aria-label="email" placeholder="email">
                         </div>
                         <div class="comment-input">
                             <label for="InputText"></label>
-                            <textarea name="Comment-text" id="InputText" placeholder="Комментарий" cols="57"
-                                      rows="6"></textarea>
+                            <textarea name="Comment-text" id="InputText" placeholder="Комментарий"
+                                      cols="57" rows="6"></textarea>
                         </div>
                     </div>
                     <button type="submit" class="btn btn-primary" style="margin: 5px;">Отправить</button>
