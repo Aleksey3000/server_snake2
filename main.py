@@ -19,9 +19,9 @@ def index():
 
         postgreSQL.create_comment(name, email, text, date.today())
 
-    #comments = postgreSQL.select_comments()
+    comments = postgreSQL.select_comments()
 
-    return render_template("index.html")
+    return render_template("index.html", comments=comments)
 
 
 if __name__ == '__main__':
