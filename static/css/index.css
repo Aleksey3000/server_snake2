@@ -10,7 +10,6 @@ body {
 
 .container {
     width: 800px;
-    min-height: 1000px;
     margin: 0 auto;
     background: #d5ebde;
     border: 2px solid #7f8f94;
@@ -19,7 +18,6 @@ body {
 .head {
     margin-bottom: 20px;
     margin-left: 5px;
-    width: 730px;
     display: flex;
     border-bottom: 2px solid #4b6a75;
 
@@ -101,7 +99,7 @@ h4 {
 .how-install {
     margin-bottom: 20px;
 
-    width: 730px;
+    /*width: 730px;*/
     border-bottom: 2px solid #4b6a75;
 }
 
@@ -118,3 +116,30 @@ h4 {
     width: 500px;
     padding-left: 4px;
 }
+.commens{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
