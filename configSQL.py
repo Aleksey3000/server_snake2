@@ -1,5 +1,5 @@
-HOST = "ec2-54-228-218-84.eu-west-1.compute.amazonaws.com"
+HOST = "ec2-34-243-101-244.eu-west-1.compute.amazonaws.com"
 PORT = 5432
-USER = "nylgbcmpwdyiml"
-PASSWORD = "cbab7b67cba410abb4e95c1226d7cdf4c8a364ec7a5a74640da79945ca8ebb3b"
-DATABASE = "dd5vbot30acngn"
+USER = "ywsdzpzytqgxhc"
+PASSWORD = "60f6b8bde7e4314060f361addd4b7f2933dd83ad45a49f10076280a592419729"
+DATABASE = "da9j1s1aaqalnu"
